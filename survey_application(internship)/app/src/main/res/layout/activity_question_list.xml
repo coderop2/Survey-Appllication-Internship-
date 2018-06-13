@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="14"
+    tools:context="aiims.survey.techmahindra.myapplication.Activities.QuestionListActivity">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:background="@color/aqlRRBackground">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/aqlPageNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:padding="@dimen/aqlPageNoTextPadding"
+            android:text="@string/aqlpageNoText"
+            android:textAlignment="center"
+            android:textColor="@color/aqlPageNo"
+            android:textSize="@dimen/aqlPageNoTextSize"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="11">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/questionListRecyclerView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:clickable="true"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:scrollbars="vertical" />
+    </ScrollView>
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/aqlNextSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/aqlButtonBack"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:padding="@dimen/aqlButtonTextPadding"
+        android:text="@string/aqlNextSubmitText"
+        android:textColor="@color/aqlButton"
+        android:textSize="@dimen/aqlButtonTextSize"
+        android:textStyle="bold" />
+
+</LinearLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Splash Activity-->
+    <string name="saPermissionGranted">अनुमति प्रदान की गई</string>
+    <string name="saPermissionNotGranted">इस एप्लिकेशन को ठीक से काम करने के लिए स्थान अनुमति की आवश्यकता है</string>
+
+    <!--Login Activity-->
+    <string name="userid">उपयोगकर्ता आईडी</string>
+    <string name="password">पासवर्ड</string>
+    <string name="login">लॉग इन करें</string>
+    <string name="laLoginFailed">लॉगिन करने में विफल</string>
+
+
+    <!--Permissions Dialog Alert in SplashActivity-->
+    <string name="saAlertTitle">अनुमतियाँ आवश्यक</string>
+    <string name="saAlertMessage">कृपया सभी अनुमतियों का अनुरोध करें। आप सेटिंग से अनुमतियां भी सेट कर सकते हैं।</string>
+    <string name="saPositiveButtonText">ठीक</string>
+    <string name="saAlertCancelled">एप्लिकेशन सभी अनुमतियों के बिना काम नहीं कर सकता</string>
+    <string name="saPermissionDenied">एप्लिकेशन सभी अनुमतियों के बिना काम नहीं कर सकता</string>
+    <string name="saNeutralButtonText">सेटिंग्स</string>
+
+    <!--SURVEY ELEMENT-->
+    <string name="seTitle">शीर्षक</string>
+    <string name="seDescription">विवरण</string>
+    <string name="seTotalQ">कुल: </string>
+    <string name="seVersion">संस्करण: </string>
+    <string name="seTotalP">पेज: </string>
+    <string name="action_settings">सेटिंग्स</string>
+    <string name="seType">प्रकार: </string>
+    <string name="title_activity_question_list">QuestionListActivity</string>
+
+    <!--Question Element-->
+    <string name="qeQText">प्रश्न: </string>
+
+    <!--Activity Question List-->
+    <string name="aqlpageNoText">पेज &#160;</string>
+    <string name="aqlNextSubmitText">आगामी / जमा करें</string>
+    <string name="aqlSubmit">जमा करें</string>
+    <string name="aqlNext">आगामी</string>
+
+    <!--Language Dialog Box-->
+    <string name="laAlertTitle">भाषा चुनिए</string>
+    <string-array name="laLanguageOptions">
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+    <string-array name="laLangMap">
+        <item>en</item>
+        <item>hi</item>
+    </string-array>
+    <string name="laAlertPositive">ठीक</string>
+
+
+    <!--Responder Info Activity-->
+    <string name="riaResponderInfo">उत्तरदाता सूचना</string>
+    <string name="riaFName">पहला नाम</string>
+    <string name="riaLName">अंतिम नाम</string>
+    <string name="riaGenderText">लिंग चुनें</string>
+    <string name="riaMale">नर</string>
+    <string name="riaFemale">महिला</string>
+    <string name="riaOther">अन्य</string>
+    <string name="riaWeight">वजन</string>
+    <string name="riaHeight">ऊंचाई</string>
+    <string name="riaAddress">पता</string>
+    <string name="riaAge">आयु</string>
+    <string name="riaSubmit">जमा करें</string>
+    <string name="riaEmptyFields">कृपया सभी फ़ील्ड दर्ज करें</string>
+    <string name="riaEtWeight">किग्रा</string>
+    <string name="riaTvHeight">पैर का पंजा</string>
+    <string name="riaTvBloodGroup">रक्त समूह</string>
+
+
+    <!--Menu Survey List-->
+    <string name="menuSurveyListSync">सिंक</string>
+    <string name="menuSurveyListLang">भाषा</string>
+    <string name="menuSurveyListExport">निर्यात</string>
+
+    <!--Survey List Activity-->
+    <string name="slaExportSuccess">आप निर्यात फ़ाइल को यहां देखेंगे\n</string>
+    <string name="slaNoSdCard">कोई एसडी कार्ड उपलब्ध नहीं है</string>
+
+</resources>

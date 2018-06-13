@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/riaLL"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/responderInfoActivityBackground"
+    android:orientation="vertical"
+    tools:context="aiims.survey.techmahindra.myapplication.Activities.ResponderInfoActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaResponderInfo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/riaResponderInfoBackground"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaResponderInfoPadding"
+                        android:text="@string/riaResponderInfo"
+                        android:textAlignment="center"
+                        android:textColor="@color/riaResponderInfoText"
+                        android:textSize="@dimen/riaResponderInfoTextSize" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvFName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaFName"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/riaFName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:hint="@string/riaFName"
+                        android:imeOptions="actionNext"
+                        android:inputType="textCapWords"
+                        android:nextFocusForward="@+id/riaLName"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize">
+
+                        <requestFocus />
+                    </android.support.v7.widget.AppCompatEditText>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvLName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaLName"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/riaLName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:hint="@string/riaLName"
+                        android:imeOptions="actionNext"
+                        android:inputType="textCapWords"
+                        android:nextFocusForward="@+id/riaGenderMale"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize" />
+
+                    <RadioGroup
+                        android:id="@+id/riaGender"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="@dimen/riaGenderPadding">
+
+                        <android.support.v7.widget.AppCompatTextView
+                            android:id="@+id/riaGenderText"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="@dimen/riaEtPadding"
+                            android:text="@string/riaGenderText"
+                            android:textColor="@color/riaEtTextColor"
+                            android:textColorHint="@color/riaEtHintColor"
+                            android:textSize="@dimen/riaEtTextSize" />
+
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/riaGenderMale"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/riaGenderTint"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="@dimen/riaEtPadding"
+                            android:text="@string/riaMale"
+                            android:textColor="@color/riaEtTextColor"
+                            android:textSize="@dimen/riaEtTextSize" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/riaGenderFemale"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/riaGenderTint"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="@dimen/riaEtPadding"
+                            android:text="@string/riaFemale"
+                            android:textColor="@color/riaEtTextColor"
+                            android:textSize="@dimen/riaEtTextSize" />
+
+                        <android.support.v7.widget.AppCompatRadioButton
+                            android:id="@+id/riaGenderOther"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:buttonTint="@color/riaGenderTint"
+                            android:clickable="true"
+                            android:foreground="?android:attr/selectableItemBackground"
+                            android:padding="@dimen/riaEtPadding"
+                            android:text="@string/riaOther"
+                            android:textColor="@color/riaEtTextColor"
+                            android:textSize="@dimen/riaEtTextSize" />
+
+                    </RadioGroup>
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaWeight"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/riaWeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:hint="@string/riaEtWeight"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:nextFocusForward="@+id/riaHeight"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvHeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaHeight"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/riaHeight"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:hint="@string/riaTvHeight"
+                        android:imeOptions="actionNext"
+                        android:inputType="numberDecimal"
+                        android:nextFocusForward="@+id/riaBloodGroup"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize" />
+
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvBloodGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaTvBloodGroup"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+                    <android.support.v7.widget.AppCompatSpinner
+                        android:id="@+id/riaBloodGroup"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaAddress"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/riaAddress"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:hint="@string/riaAddress"
+                        android:imeOptions="actionNext"
+                        android:inputType="text"
+                        android:nextFocusForward="@+id/riaAge"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize" />
+
+                    <android.support.v7.widget.AppCompatTextView
+                        android:id="@+id/riaTvAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaTvPadding"
+                        android:text="@string/riaAge"
+                        android:textColor="@color/riaTvTextColor"
+                        android:textSize="@dimen/riaTvTextSize" />
+
+                    <android.support.v7.widget.AppCompatEditText
+                        android:id="@+id/riaAge"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/riaEtBackgroundTint"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:hint="@string/riaAge"
+                        android:imeOptions="actionGo"
+                        android:inputType="number"
+                        android:padding="@dimen/riaEtPadding"
+                        android:textColor="@color/riaEtTextColor"
+                        android:textColorHint="@color/riaEtHintColor"
+                        android:textSize="@dimen/riaEtTextSize" />
+
+                    <android.support.v7.widget.AppCompatButton
+                        android:id="@+id/riaSubmit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/riaSubmitBckg"
+                        android:clickable="true"
+                        android:foreground="?android:attr/selectableItemBackground"
+                        android:padding="@dimen/riaSubmitPadding"
+                        android:text="@string/riaSubmit"
+                        android:textAlignment="center"
+                        android:textColor="@color/riaSubmitText"
+                        android:textSize="@dimen/riaSubmitTextSize" />
+                </LinearLayout>
+            </ScrollView>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="aiims.survey.techmahindra.myapplication.Activities.LoginActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bckg_login">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="vertical"
+                android:padding="@dimen/lfllpadding">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/fluserid"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/lfEditTextBoundary"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:hint="@string/userid"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress"
+                    android:nextFocusForward="@+id/flPassword"
+                    android:padding="@dimen/lfEditTextPadding"
+                    android:textColor="@color/lfHintText"
+                    android:textColorHint="@color/lfHintText"
+                    android:textSize="@dimen/lfEditText">
+
+                    <requestFocus />
+                </android.support.v7.widget.AppCompatEditText>
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:id="@+id/flpassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/lfEditTextBoundary"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:hint="@string/password"
+                    android:imeOptions="actionGo"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/lfEditTextPadding"
+                    android:textColor="@color/lfHintText"
+                    android:textColorHint="@color/lfHintText"
+                    android:textSize="@dimen/lfEditText" />
+
+
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/lfspaceheight" />
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/fllogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/lfButtonBackground"
+                    android:clickable="true"
+                    android:foreground="?android:attr/selectableItemBackground"
+                    android:text="@string/login"
+                    android:textColor="@color/lfButtonText" />
+
+            </LinearLayout>
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

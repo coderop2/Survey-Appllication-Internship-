@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Survey App</string>
+
+    <string name="title_activity_splash">SplashActivity</string>
+
+    <!--Splash Activity-->
+    <string name="saPermissionGranted">Permission Granted</string>
+    <string name="saPermissionNotGranted">This app requires location permission to work properly</string>
+
+    <!--Login Activity-->
+    <string name="userid">UserID</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="laLoginFailed">Failed to Login</string>
+
+    <!--Permissions Dialog Alert in SplashActivity-->
+    <string name="saAlertTitle">Permissions Required</string>
+    <string name="saAlertMessage">Please allow all the Permissions requested. You can also set Permissions from Settings.</string>
+    <string name="saPositiveButtonText">OK</string>
+    <string name="saAlertCancelled">The app cannot work without all the Permissions</string>
+    <string name="saPermissionDenied">The app cannot work without all the Permissions</string>
+    <string name="saNeutralButtonText">Settings</string>
+
+    <!--SURVEY ELEMENT-->
+    <string name="seTitle">Title</string>
+    <string name="seDescription">Description</string>
+    <string name="seTotalQ">Total: </string>
+    <string name="seVersion">Version: </string>
+    <string name="seTotalP">Pages: </string>
+    <string name="action_settings">Settings</string>
+    <string name="seType">Type: </string>
+    <string name="title_activity_question_list">QuestionListActivity</string>
+
+    <!--Question Element-->
+    <string name="qeQText">Question: </string>
+
+    <!--Activity Question List-->
+    <string name="aqlpageNoText">Page &#160;</string>
+    <string name="aqlNextSubmitText">Next / Submit</string>
+    <string name="aqlSubmit">Submit</string>
+    <string name="aqlNext">Next</string>
+
+    <!--Language Dialog Box-->
+    <string name="laAlertTitle">Select Language</string>
+    <string-array name="laLanguageOptions">
+        <item>English</item>
+        <item>हिन्दी</item>
+    </string-array>
+    <string-array name="laLangMap">
+        <item>en</item>
+        <item>hi</item>
+    </string-array>
+    <string name="laAlertPositive">OK</string>
+
+    <!--Responder Info Activity-->
+    <string name="riaResponderInfo">Responder Information</string>
+    <string name="riaFName">First Name</string>
+    <string name="riaLName">Last Name</string>
+    <string name="riaGenderText">Select Gender</string>
+    <string name="riaMale">Male</string>
+    <string name="riaFemale">Female</string>
+    <string name="riaOther">Other</string>
+    <string name="riaWeight">Weight</string>
+    <string name="riaHeight">Height</string>
+    <string name="riaAddress">Address</string>
+    <string name="riaAge">Age</string>
+    <string name="riaSubmit">Submit</string>
+    <string name="riaEmptyFields">Please Enter all the Fields</string>
+    <string name="riaEtWeight">Kgs</string>
+    <string name="riaTvHeight">Feet</string>
+    <string name="riaTvBloodGroup">Blood Group</string>
+    <string-array name="bloodGroup">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+
+    <!--Menu Survey List-->
+    <string name="menuSurveyListSync">Sync</string>
+    <string name="menuSurveyListLang">Language</string>
+    <string name="menuSurveyListExport">Export</string>
+
+    <!--Survey List Activity-->
+    <string name="slaExportSuccess">You will find the Exported File at\n</string>
+    <string name="slaNoSdCard">No SD Card Available</string>
+</resources>

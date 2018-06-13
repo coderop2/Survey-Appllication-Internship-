@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Splash Screen-->
+    <dimen name="progressBarMarginBottom">100dp</dimen>
+    <dimen name="progressBarElevation">10dp</dimen>
+
+    <!-- Login Activity-->
+    <dimen name="lfButtonSize">20sp</dimen>
+    <dimen name="lfEditText">20sp</dimen>
+    <dimen name="lfEditTextPadding">20dp</dimen>
+    <dimen name="lfButtonPadding">20dp</dimen>
+    <dimen name="lfllpadding">30dp</dimen>
+    <dimen name="lfspaceheight">30dp</dimen>
+
+
+    <!--Survey List Element -->
+    <dimen name="seTitleTextSize">20sp</dimen>
+    <dimen name="seTitlePadding">10dp</dimen>
+    <dimen name="seDescriptionTextSize">15sp</dimen>
+    <dimen name="seDescriptionPadding">10dp</dimen>
+    <dimen name="seInnerLLPadding">5dp</dimen>
+    <dimen name="seInnerLLTextSize">15sp</dimen>
+    <dimen name="seCardCornerRadius">4dp</dimen>
+    <dimen name="seCardMargin">10dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Question List Element-->
+    <dimen name="qeCardViewMargin">10dp</dimen>
+    <dimen name="qeCardViewElevation">4dp</dimen>
+    <dimen name="qeQTextPadding">10dp</dimen>
+    <dimen name="qeQTextSize">20sp</dimen>
+    <dimen name="qeOptionPadding">5dp</dimen>
+    <dimen name="qeOptionSize">20sp</dimen>
+
+    <!--Activity Question List-->
+    <dimen name="aqlPageNoTextSize">25sp</dimen>
+    <dimen name="aqlPageNoTextPadding">5dp</dimen>
+    <dimen name="aqlButtonTextSize">20sp</dimen>
+    <dimen name="aqlButtonTextPadding">5dp</dimen>
+
+    <!--Responder Info Activity-->
+    <dimen name="riaResponderInfoPadding">20dp</dimen>
+    <dimen name="riaResponderInfoTextSize">30sp</dimen>
+    <dimen name="riaEtPadding">10dp</dimen>
+    <dimen name="riaEtTextSize">20sp</dimen>
+    <dimen name="riaSubmitPadding">10dp</dimen>
+    <dimen name="riaSubmitTextSize">30sp</dimen>
+    <dimen name="riaGenderPadding">10dp</dimen>
+    <dimen name="riaTvPadding">10dp</dimen>
+    <dimen name="riaTvTextSize">20sp</dimen>
+</resources>

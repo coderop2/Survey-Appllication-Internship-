@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/seCardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/seCardMargin"
+        android:clickable="true"
+        android:foreground="?android:attr/selectableItemBackground"
+        app:cardCornerRadius="@dimen/seCardCornerRadius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/seTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/seTitlePadding"
+                android:text="@string/seTitle"
+                android:textAlignment="center"
+                android:textColor="@color/seTitleText"
+                android:textSize="@dimen/seTitleTextSize"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/seDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/seDescriptionPadding"
+                android:text="@string/seDescription"
+                android:textColor="@color/seDescriptionText"
+                android:textSize="@dimen/seDescriptionTextSize" />
+
+            <LinearLayout
+                android:id="@+id/seInnerLL"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="@dimen/seInnerLLPadding"
+                android:weightSum="4">
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/seTotalP"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/seTotalP"
+                    android:textAlignment="center"
+                    android:textColor="@color/seInnerLLText"
+                    android:textSize="@dimen/seInnerLLTextSize" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/seTotalQ"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/seTotalQ"
+                    android:textAlignment="center"
+                    android:textColor="@color/seInnerLLText"
+                    android:textSize="@dimen/seInnerLLTextSize" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/seVersion"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/seVersion"
+                    android:textAlignment="center"
+                    android:textColor="@color/seInnerLLText"
+                    android:textSize="@dimen/seInnerLLTextSize" />
+
+                <android.support.v7.widget.AppCompatTextView
+                    android:id="@+id/seType"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="@string/seType"
+                    android:textAlignment="center"
+                    android:textColor="@color/seInnerLLText"
+                    android:textSize="@dimen/seInnerLLTextSize" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+</LinearLayout>

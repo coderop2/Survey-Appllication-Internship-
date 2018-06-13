@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+
+    <!--Splash Screen-->
+    <color name="splashProgressBar">#FFFFFF</color>
+
+
+    <!-- Login Activity -->
+    <color name="lfHintText">#000000</color>
+    <color name="lfText">#000000</color>
+    <color name="lfEditTextBoundary">#0000FF</color>
+    <color name="lfButtonText">#0F0F0F</color>
+    <color name="lfButtonBackground">#F0F0F0</color>
+
+    <!--Survey List Element-->
+    <color name="seBckg">#bcaaa4</color>
+    <color name="seTitleText">#4527a0</color>
+    <color name="seDescriptionText">#303f9f</color>
+    <color name="seInnerLLText">#1b5e20</color>
+    <color name="seShadowColor">#1b5e20</color>
+
+    <!--Question List Element-->
+    <color name="qeQText">#5A5AFF</color>
+    <color name="qeOption">#000000</color>
+
+    <!--Activity Question List-->
+    <color name="aqlPageNo">#FFFFFF</color>
+    <color name="aqlRRBackground">#0ABC0A</color>
+    <color name="aqlButton">#FFFFFF</color>
+    <color name="aqlButtonBack">#0ABC0A</color>
+
+    <!--Responder Info Activity-->
+    <color name="responderInfoActivityBackground">#FFFFFF</color>
+    <color name="riaResponderInfoText">#000000</color>
+    <color name="riaResponderInfoBackground">#0ABC0A</color>
+    <color name="riaEtBackgroundTint">#5A5AFF</color>
+    <color name="riaEtTextColor">#000000</color>
+    <color name="riaEtHintColor">#5A5AFF</color>
+    <color name="riaSubmitText">#FFFFFF</color>
+    <color name="riaSubmitBckg">#0ABC0A</color>
+    <color name="riaGenderTint">#5A5AFF</color>
+    <color name="riaTvTextColor">#000000</color>
+
+</resources>
